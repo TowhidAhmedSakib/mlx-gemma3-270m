@@ -384,8 +384,6 @@ def main():
         final_adapter_path = config.get_adapter_path(config.max_iters)
         print(f"\nTraining completed successfully!")
         print(f"Final adapters saved to: {final_adapter_path}")
-        print(f"\nTo test your model, run:")
-        print(f"python test_finetuned.py --adapter-path {final_adapter_path}")
     else:
         print("\nTraining failed. Check the logs above for details.")
         sys.exit(1)
