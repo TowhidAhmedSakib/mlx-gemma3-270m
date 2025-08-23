@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mlx = ">=0.28.0"
+mlx-lm = ">=0.20.0"
+transformers = "==4.44.2"
+datasets = "==2.21.0"
+huggingface-hub = "==0.24.6"
+accelerate = "==0.34.2"
+pandas = "==2.2.2"
+hf-transfer = "==0.1.6"
+scikit-learn = "==1.5.1"
+matplotlib = "==3.8.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
